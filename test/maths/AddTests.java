@@ -13,4 +13,10 @@ public class AddTests {
     Maths maths = new Maths();
     assertEquals(2, maths.add(1, 1));
   }
+
+  @Test
+  public void testAddTwo() {
+    Maths maths = new Maths();
+    assertEquals(3, maths.add(2, 1));
+  }
 }
